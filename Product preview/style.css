@@ -1,0 +1,90 @@
+body{
+  background: hsl(30, 38%, 92%);
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: gray;
+}
+
+.titulo{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.preco-atual{
+  color: rgb(18, 101, 18);
+}
+
+.preco-antigo{
+  text-decoration: line-through;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 3px 5px gray;
+  border-radius: 20px;
+}
+
+.card img{
+  max-width: 50%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  float: left;
+}
+
+.descricao-card{
+  width: 50%;
+  float: right;
+  padding: 24px;
+  justify-content: space-between;
+}
+
+.preco{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+button{
+  background-color: rgb(18, 101, 18);
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.atribuition{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 24px;
+}

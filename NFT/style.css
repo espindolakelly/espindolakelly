@@ -1,0 +1,100 @@
+body{
+  background: #0D192B;
+  margin: 0 auto;
+  max-width: 100vw;
+  font-family: 'Outfit', sans-serif;
+}
+
+h1{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+p{
+  font-size: 18px;
+  color: #8BACDA;
+}
+
+span{
+  color: white;
+}
+
+.p-eth{
+  font-weight: 700;
+  font-size: 14px;
+  color: #00FFF6;
+}
+
+.container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #14253D;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  box-shadow: 3px 3px 40px rgb(21, 21, 21);
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.money{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+}
+
+.eth{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.eth img{
+  margin: 0;
+  width: 14px;
+}
+
+.days{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.days img{
+  margin: 0;
+  width: 16px;
+}
+
+.avatar{
+  border-top: solid 1px #2F415B;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar img{
+  margin: 0;
+  width: 32px;
+  border: solid white 1px;
+  border-radius: 100%;
+}
